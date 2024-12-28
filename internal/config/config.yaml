@@ -1,0 +1,31 @@
+# 应用配置
+app:
+  name: "ASCII Art Generator"
+  version: "1.0.0"
+
+# 默认设置
+defaults:
+  mode: "image2image"
+  background: "black"
+  num_cols: 100
+  scale: 1.0
+  fps: 30
+  overlay_ratio: 0.2
+  language: "english"
+
+# 字体设置
+fonts:
+  base_path: "fonts"
+  default_size: 10.0
+  files:
+    latin: "DejaVuSansMono-Bold.ttf"
+    cjk: "arial-unicode.ttf"
+    chinese: "simsun.ttc"
+
+# 输出设置
+output:
+  supported_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".txt"
+    - ".mp4" 
