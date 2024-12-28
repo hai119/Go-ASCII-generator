@@ -148,4 +148,3 @@ dataset
 .env
 .vscode
 output*
-bin/
