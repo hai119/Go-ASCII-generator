@@ -65,6 +65,9 @@ cd Go-ASCII-generator
 
 # Build
 make build
+
+# Test
+make test
 ```
 
 ### Usage Examples
